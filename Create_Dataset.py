@@ -55,4 +55,4 @@ df.insert(1, 'label', complete_label_list)
 print(df)
 
 #Convert dataframe to csv with no column headers included or row numbers:
-df.to_csv('C:\\Users\\thoma\\Documents\\Computer Vision\\geodis.csv', sep=',', na_rep='NaN', header=0, index=0)
+df.to_csv('C:\\Users\\thoma\\Documents\\Computer Vision\\geodis.csv', sep=',', na_rep='NaN', header=1, index=0)
