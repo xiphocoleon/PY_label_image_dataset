@@ -23,7 +23,7 @@ complete_label_list = []
 
 #Read image file names in directory:
 #Enter highest directory of images here:
-path = 'C:\\Users\\thoma\\Pictures\\Computer Vision'
+path = 'C:\\Users\\thoma\\Pictures\\Geodis'
 dir_list = os.listdir(path)
 for x in range(len(dir_list)):
     #print("full paths of directories is: " + path + '\\' + dir_list[x])   
